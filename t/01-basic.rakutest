@@ -1,0 +1,8 @@
+use Test;
+use Slang::Lambda;
+
+plan 1;
+
+is-deeply (1,2,3).map( λ $x { $x+1 }), (2,3,4), 'did we compile and excute ok';
+
+# vim: expandtab sw=4

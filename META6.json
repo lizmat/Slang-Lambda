@@ -1,0 +1,28 @@
+{
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "Slangify:ver<0.0.4+>:auth<zef:lizmat>"
+  ],
+  "description": "allow λ as a pointy block starter",
+  "license": "Artistic-2.0",
+  "name": "Slang::Lambda",
+  "perl": "6.c",
+  "provides": {
+    "Slang::Lambda": "lib/Slang/Lambda.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/Slang-Lambda.git",
+  "tags": [
+    "SLANG",
+    "Lambda"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.2"
+}

@@ -1,0 +1,46 @@
+=begin pod
+
+=head1 NAME
+
+Slang::Lambda - allow λ as a pointy block starter
+
+=head1 SYNOPSIS
+
+=begin code :lang<raku>
+
+use Slang::Lambda;
+
+say (1,2,3).map: λ $x { $x+1 }  # (2 3 4)
+
+=end code
+
+=head1 DESCRIPTION
+
+Slang::Lambda modifies the Raku grammar to make it possible to use
+simple the C<λ> (lambda) symbol as the starter symbol of a pointy
+block (which is usually C«->»).
+
+=head1 INSPIRATION
+
+A question on L</r/rakulang|https://www.reddit.com/r/rakulang/comments/1idts0a/how_can_i_use_λ_lambda_for_if_at_all/>.
+
+=head1 AUTHOR
+
+Elizabeth Mattijsen <liz@raku.rocks>
+
+Source can be located at: https://github.com/lizmat/Slang-Lambda .
+Comments and Pull Requests are welcome.
+
+If you like this module, or what I’m doing more generally, committing to a
+L<small sponsorship|https://github.com/sponsors/lizmat/>  would mean a great
+deal to me!
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2025 Elizabeth Mattijsen
+
+This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+
+=end pod
+
+# vim: expandtab shiftwidth=4

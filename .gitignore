@@ -1,0 +1,4 @@
+.precomp/
+/Slang-Lambda-*
+/releases/
+*.rakucov
